@@ -12,6 +12,7 @@ group :development do
   gem 'capistrano', '~> 3.0', require: false
   gem 'capistrano-bundler', '~> 1.1', require: false
   gem 'capistrano-rvm', require: false
+  gem 'capistrano-rbenv', require: false
 end
 
 group :test do
